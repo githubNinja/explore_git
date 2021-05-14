@@ -8,6 +8,7 @@ public class HelloGitMain {
     public static void main(String[] args) {
         System.out.println("Hello Git main !!");
         new HelloGitMain().printMe();
+
     }
 
     private void printMe() {
@@ -15,9 +16,4 @@ public class HelloGitMain {
         Stream<Object> stream = Arrays.stream(Arrays.stream(declaredMethods).toArray());
         stream.forEach(a -> System.out.println("method names are:::" + a));
     }
-    private void initializeFoodItems(){
-        new Food().setFoodItemId(100);
-        new Food().setNameOfRestaurent("name of the restaurant !!");
-    }
-
 }
