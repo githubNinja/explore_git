@@ -16,6 +16,7 @@ public class HelloGitMain {
         stream.forEach(a -> System.out.println("method names are:::" + a));
     }
     private void initializeFoodItems(){
+        System.out.println("initializeFoodItems !!!");
         new Food().setFoodItemId(100);
         new Food().setNameOfRestaurent("name of the restaurant !!");
     }
