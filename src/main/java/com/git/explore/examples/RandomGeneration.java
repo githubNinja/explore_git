@@ -12,4 +12,8 @@ public class RandomGeneration {
     public int randomInt() {
         return new Random().nextInt();
     }
+
+    public float randomFloat(){
+        return new Random().nextFloat();
+    }
 }
