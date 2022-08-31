@@ -32,5 +32,3 @@ build/
 .dcignore
 
 *.orig
-
-*.idea
