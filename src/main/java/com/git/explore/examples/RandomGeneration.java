@@ -5,6 +5,8 @@ import java.util.UUID;
 
 public class RandomGeneration {
 
+    private static final String "RANDOM" = "random";
+        
     public String random() {
         return UUID.randomUUID().toString();
     }
